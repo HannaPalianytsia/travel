@@ -2,20 +2,21 @@
 
 :root {
   font-family: "Edu NSW ACT Cursive", cursive;
+  /* font-family: "Lobster", sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --color-dark-brown: #3a2b23;
+  --color-light-beige: #e7d7c4;
+  --color-accent-teal: #1fa4a0;
+  --color-text-white: #ffffff;
+  --color-text-brown: #3b2d23;
 }
 
 body {
+  background-color: var(--color-light-beige);
+  color: var(--color-text-brown);
+
   margin: 0;
   display: flex;
   place-items: center;
@@ -47,7 +48,7 @@ h1 {
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em var(--color-accent-teal));
 }
 button {
   border-radius: 8px;
