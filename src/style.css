@@ -14,8 +14,8 @@
 }
 
 body {
-  background-color: var(--color-light-beige);
-  color: var(--color-text-brown);
+  background-color: var(--color-dark-brown);
+  color: var(--color-text-white);
 
   margin: 0;
   display: flex;
@@ -67,6 +67,16 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.hero-section {
+  margin: 0 auto;
+  padding: 188px 0;
+  max-width: 1440px;
+  background-image: linear-gradient(to bottom, #3a2b23b3, #3a2b23b3),
+    url(./assets/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (prefers-color-scheme: light) {
