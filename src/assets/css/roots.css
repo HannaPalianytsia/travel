@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Lobster&family=Montserrat:wght@100..900&family=Roboto:wght@400;700&display=swap");
+
+:root {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  /* font-family: "Lobster", sans-serif; */
+  --color-background-first: #e7d7c4;
+  --color-background-second: #3a2b23;
+  --color-text-first: #3b2d23;
+  --color-text-second: #ffffff;
+  --color-accent: #1fa4a0;
+}

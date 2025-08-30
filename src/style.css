@@ -1,23 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Lobster&family=Montserrat:wght@100..900&family=Roboto:wght@400;700&display=swap");
-
-:root {
-  font-family: "Edu NSW ACT Cursive", cursive;
-  /* font-family: "Lobster", sans-serif; */
-  line-height: 1.5;
-  font-weight: 400;
-
-  --color-dark-brown: #3a2b23;
-  --color-light-beige: #e7d7c4;
-  --color-accent-teal: #1fa4a0;
-  --color-text-white: #ffffff;
-  --color-text-brown: #3b2d23;
-}
-
-a {
-  text-decoration: none;
-  color: #1fa4a0;
-}
-
+@import url(/src/assets/css/roots.css);
+@import url(/src/assets/css/basic-styles.css);
+/* 
 .logo {
   display: flex;
   flex-direction: column;
@@ -28,4 +11,4 @@ a {
 
 .logo small {
   font-size: xx-small;
-}
+} */
