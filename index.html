@@ -16,10 +16,16 @@
   </head>
   <body>
     <header class="header container">
-      <nav class="navigation">
-        <a href="#" class="logo">Trip <small>with</small> Kati</a>
+      <a href="#" class="logo"
+        ><div>Kati</div>
+        <div>Trip</div></a
+      >
+
+      <!-- <div id="desctop-navigation"></div> -->
+
+      <!-- <nav>
         <ul class="nav-list">
-          <li><a href="./index.html">Про нас</a></li>
+          <li><a href="#about">Про нас</a></li>
           <li><a href="">Актуальні тури</a></li>
           <li><a href="">Про бронювання</a></li>
           <li><a href="">Попередні тури</a></li>
@@ -27,7 +33,15 @@
             <a href="">Контакти </a>
           </li>
         </ul>
-      </nav>
+      </nav> -->
+
+      <button class="menu-button" type="button">
+        <svg class="menu-icon" width="20" height="20">
+          <use href="./public/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+
+      <div id="mobile-navigation"></div>
     </header>
 
     <main>
@@ -36,7 +50,7 @@
         <h2>Пригоди створюємо разом</h2>
       </section>
 
-      <section class="about container">
+      <section class="about container" id="about">
         <p>
           Про нас - Подорожі, що змінюють За плечима — 48 країн Європи, Азії та
           Північної Америки: від Грузії, Йорданії та Ізраїлю — до Ісландії,

@@ -12,3 +12,28 @@
 .logo small {
   font-size: xx-small;
 } */
+
+.header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .menu-button {
+  display: flex;
+  align-items: center;
+}
+
+ .button_burger {
+  background-color: transparent;
+  border: none;
+  width: 32px;
+  height: 22px;
+  padding: 0;
+  line-height: 0;
+}
+.burger_button {
+  width: 32px;
+  height: 22px;
+} */
