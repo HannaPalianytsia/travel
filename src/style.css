@@ -1,39 +1,4 @@
 @import url(/src/assets/css/roots.css);
 @import url(/src/assets/css/basic-styles.css);
-/* 
-.logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
-}
-
-.logo small {
-  font-size: xx-small;
-} */
-
-.header {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* .menu-button {
-  display: flex;
-  align-items: center;
-}
-
- .button_burger {
-  background-color: transparent;
-  border: none;
-  width: 32px;
-  height: 22px;
-  padding: 0;
-  line-height: 0;
-}
-.burger_button {
-  width: 32px;
-  height: 22px;
-} */
+@import url(/src/assets/css/header.css);
+@import url(/src/assets/css/main-section.css);
