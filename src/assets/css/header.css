@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-background-second);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  padding: 8px;
+}
+
+.menu-button {
+  padding: 0;
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  stroke: var(--color-accent);
+  padding: 8px;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 30px;
+}
