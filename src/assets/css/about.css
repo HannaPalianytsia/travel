@@ -1,0 +1,43 @@
+.about-section {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.about-section h3 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.about-section p {
+  text-align: center;
+}
+
+/* .around-the-world-icon {
+  width: 50px;
+  height: 50px;
+  stroke: aqua;
+  fill: blue;
+  margin: 0 auto;
+} */
+
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-list li {
+  padding: 8px;
+  border: 1px solid var(--color-accent);
+  border-radius: 12px;
+  background: linear-gradient(
+    180deg,
+    var(--color-accent) 0%,
+    var(--color-accent-02) 100%
+  );
+}
+
+.final-text-about {
+  padding-top: 40px;
+}
