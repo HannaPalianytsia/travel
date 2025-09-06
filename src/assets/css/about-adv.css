@@ -1,6 +1,6 @@
-.about-section {
-  padding-top: 72px;
-  padding-bottom: 72px;
+.about-section,
+.advantages-section {
+  padding-block: 72px;
 }
 
 .about-section h3 {
@@ -21,13 +21,15 @@
   margin: 0 auto;
 } */
 
-.about-list {
+.about-list,
+.advantages-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-.about-list li {
+.about-list li,
+.advantages-list li {
   padding: 8px;
   border: 1px solid var(--color-accent);
   border-radius: 12px;
@@ -39,5 +41,14 @@
 }
 
 .final-text-about {
+  padding-top: 40px;
+}
+
+.advantages-section {
+  background-color: var(--color-background-second);
+  color: var(--color-text-second);
+}
+
+.advantages-list {
   padding-top: 40px;
 }
