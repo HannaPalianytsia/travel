@@ -1,6 +1,10 @@
 .main-section {
-  padding: 72px 0;
   background-color: var(--color-background-second);
+  color: var(--color-text-second);
+}
+
+.main-content {
+  padding: 72px 0;
   background-image: linear-gradient(
       to bottom,
       var(--color-background-second-07),
@@ -8,9 +12,8 @@
     ),
     url(../images/hero.jpg);
   background-repeat: no-repeat;
-  background-position: 16% 0%;
+  background-position: 22% 0%;
   background-size: cover;
-  color: var(--color-text-second);
 }
 
 .main-title {
@@ -18,7 +21,7 @@
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: -0.04em;
-  padding: 0 80px;
+  padding: 0 60px;
   text-align: center;
 }
 

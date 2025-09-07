@@ -1,7 +1,10 @@
 .header {
+  border: 1px solid var(--color-background-second);
+}
+
+.header-content {
   display: flex;
   align-items: center;
-  border: 1px solid var(--color-background-second);
 }
 
 .logo {
