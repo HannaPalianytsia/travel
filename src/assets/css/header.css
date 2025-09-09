@@ -16,15 +16,24 @@
 }
 
 .menu-button {
-  padding: 0;
-  margin-left: auto;
   border: none;
   background: transparent;
-  stroke: var(--color-accent);
+  stroke: var(--color-text-first);
   padding: 8px;
 }
 
 .menu-icon {
   width: 30px;
   height: 30px;
+}
+
+.conversation-link {
+  margin-left: auto;
+  fill: var(--color-accent);
+  padding: 8px;
+}
+
+.conversation-icon {
+  width: 40px;
+  height: 40px;
 }
