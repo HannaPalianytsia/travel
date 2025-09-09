@@ -52,3 +52,9 @@
 .advantages-list {
   padding-top: 40px;
 }
+
+.around-the-world-icon {
+  width: 100px;
+  height: 100px;
+  fill: var(--color-accent);
+}
